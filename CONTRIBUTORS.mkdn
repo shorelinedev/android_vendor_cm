@@ -25,7 +25,7 @@ Maintainers (CyanogenMod 10.2):
 * __HTC One S:__ intervigil, xkonni
 * __HTC One X:__ gorbi16, mdeejay, tbalden, Thömy
 * __HTC One X+:__ Lloir, tombriden
-* __HTC One XL:__ h8rift, intervigil
+* __HTC One XL:__ h8rift, intervigil, ShoreDroid
 * __LG Optimus LTE (P930) / LG Nitro HD {P935):__ arcee
 * __LG Optimus LTE (SK Telecom) (SU640):__ arcee
 * __Motorola Atrix HD (MB886/qinara):__ epinter, dhacker29, Hashcode, Skrilax_CZ, nadlabak
