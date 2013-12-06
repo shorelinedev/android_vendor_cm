@@ -6,6 +6,9 @@ CHANGELOG (notable new features)
 
 ### 11-20131206-ShoreDroid-evita
 * Removed CM updater
+* Added TWRP Support
+* ROM Manager tags completed for OTA updates
+* New repo sync of all source code
 
 ### 11-20131204-ShoreDroid-evita
 * Initial Release of KitKat
