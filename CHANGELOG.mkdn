@@ -4,6 +4,9 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
+### 11-20131206-ShoreDroid-evita
+* Removed CM updater
+
 ### 11-20131204-ShoreDroid-evita
 * Initial Release of KitKat
 * New ShoreDroid boot animation
