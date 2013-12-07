@@ -4,6 +4,12 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
+### 11-20131208-ShoreDroid-evita
+* Added changes from CM for GMS and procmem/procrank
+* Merged changes into kernel for KitKat to bring wifi back
+* Added 4.4.1 footprint into evita build
+* Added ShoreDroid repos to dependancies
+
 ### 11-20131206-ShoreDroid-evita
 * Removed CM updater
 * Added TWRP Support
