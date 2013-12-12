@@ -146,7 +146,6 @@ PRODUCT_PACKAGES += \
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VoicePlus \
     VoiceDialer \
     SoundRecorder \
     Basic \
@@ -162,7 +161,6 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
-    CMAccount
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
