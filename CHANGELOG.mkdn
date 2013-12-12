@@ -4,6 +4,14 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
+### 11-20131213-ShoreDroid-evita
+* Merged ViPER Audio in 
+* Updated trees to 4.4.2 base
+* Cleaned up code a little bit
+* Updated default wallpaper 
+* Removed more CM dependancies and media
+* Started merging in Active Display to test branch 
+
 ### 11-20131208-ShoreDroid-evita
 * Added changes from CM for GMS and procmem/procrank
 * Merged changes into kernel for KitKat to bring wifi back
