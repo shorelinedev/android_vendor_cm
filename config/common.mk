@@ -134,6 +134,11 @@ PRODUCT_COPY_FILES += \
 # This is CM!
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+    
+# ViPER Audio
+PRODUCT_COPY_FILES +=  \
+    vendor/cm/config/ShoreAudio/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2315.apk \
+    vendor/cm/config/ShoreAudio/libv4a_fx_jb_NEON.so:system/lib/soundfx/libv4a_fx_jb_NEON.so
 
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
@@ -213,12 +218,7 @@ PRODUCT_PACKAGES += \
     procrank \
     Superuser \
     su 
-
-# ViPER Audio
-PRODUCT_COPY_FILES +=  \
-    vendor/cm/ShoreAudio/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2315.apk \
-    vendor/cm/ShoreAudio/libv4a_fx_jb_NEON.so:system/lib/soundfx/libv4a_fx_jb_NEON.so
-
+    
 else
 
 PRODUCT_PACKAGES += \
