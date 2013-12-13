@@ -214,6 +214,10 @@ PRODUCT_PACKAGES += \
     Superuser \
     su 
 
+# ViPER Audio
+PRODUCT_COPY_FILES +=  \
+    vendor/cm/ShoreAudio/libv4a_fx_jb_NEON.so:system/lib/soundfx/libv4a_fx_jb_NEON.so
+
 else
 
 PRODUCT_PACKAGES += \
