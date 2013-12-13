@@ -30,8 +30,9 @@ PRODUCT_COPY_FILES += \
 	$(RINGTONE_PATH)/CyanTone.ogg:system/media/audio/ringtones/CyanTone.ogg \
 	$(RINGTONE_PATH)/Highscore.ogg:system/media/audio/ringtones/Highscore.ogg \
 	$(RINGTONE_PATH)/Lyon.ogg:system/media/audio/ringtones/Lyon.ogg \
-	$(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
+	$(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg
 	
 # ViPER
 PRODUCT_COPY_FILES += \
-  $(ViPER_PATH)/
+  $(ViPER_PATH)/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2315.apk \
+  $(ViPER_PATH)/libv4a_fx_jb_NEON.so:system/lib/soundfx/libv4a_fx_jb_NEON.so
