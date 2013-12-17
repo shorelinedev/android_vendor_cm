@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
+    Music
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
@@ -235,7 +236,7 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION_MAJOR = 11
+PRODUCT_VERSION_MAJOR = KitKat
 PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE = 0-RC0
 
@@ -277,8 +278,8 @@ ifdef CM_BUILDTYPE
     endif
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := ShoreDroid
-    CM_EXTRAVERSION :=
+    CM_BUILDTYPE := NIGHTLY
+    CM_EXTRAVERSION := -Merry Christmas
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
