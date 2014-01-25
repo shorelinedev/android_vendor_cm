@@ -279,7 +279,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := NIGHTLY
-    CM_EXTRAVERSION := -Merry Christmas
+    CM_EXTRAVERSION := -ShoreDroid
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
