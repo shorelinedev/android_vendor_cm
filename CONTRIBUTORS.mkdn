@@ -5,3 +5,4 @@ Maintainers (ShoreDroid 4.3+):
 -----------------------------
 * __HTC One XL:__ h8rift, intervigil, ShoreDroid
 * __Moto X:__ ShoreDroid
+* __LG Optimus G:__ ShoreDroid
