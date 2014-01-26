@@ -245,14 +245,14 @@ PRODUCT_VERSION_MAINTENANCE = 0-RC0
 ifndef CM_BUILDTYPE
     ifdef RELEASE_TYPE
         # Starting with "CM_" is optional
-        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^CM_||g')
+        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^SD_||g')
         CM_BUILDTYPE := $(RELEASE_TYPE)
     endif
 endif
 
 # Filter out random types, so it'll reset to UNOFFICIAL
 ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(CM_BUILDTYPE)),)
-    CM_BUILDTYPE :=
+    CM_BUILDTYPE := NIGHTLY
 endif
 
 ifdef CM_BUILDTYPE
@@ -278,8 +278,8 @@ ifdef CM_BUILDTYPE
     endif
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := NIGHTLY
-    CM_EXTRAVERSION := -ShoreDroid
+    CM_BUILDTYPE :=
+    CM_EXTRAVERSION := 
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
