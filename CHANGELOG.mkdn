@@ -4,11 +4,13 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
-### 11-20140126-ShoreDroid-common
+### 11-20140127-ShoreDroid-common
 * Merged LG Optimus G E973-71 code in ShoreDroid base
 * Cleaned code and sync'd to latest sources
 * Updated common vendor information 
 * Shed some more internal CM weight and AOSP code
+* Merged File Manager from OmniRom into base
+* Modified Settings and set up ShoreDroid Statistics
 
 ### 11-20131213-ShoreDroid-evita
 * Merged ViPER Audio in 
