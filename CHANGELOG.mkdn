@@ -4,6 +4,14 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
+### 11-20140206-ShoreDroid-common
+* Update webkit to chromium
+* Add custom audio_effects.conf into common build
+* Merged OmniRom File Manager into code base
+* Removed CyanogenMod settings and replaced with ShoreDroid
+* Attempt wifi fix for evita
+* Started stabilizing code for RC build
+
 ### 11-20140127-ShoreDroid-common
 * Merged LG Optimus G E973-71 code in ShoreDroid base
 * Cleaned code and sync'd to latest sources
