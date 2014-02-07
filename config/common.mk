@@ -138,7 +138,8 @@ PRODUCT_COPY_FILES += \
 # ViPER Audio
 PRODUCT_COPY_FILES += \
     vendor/cm/config/ShoreAudio/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2315.apk \
-    vendor/cm/config/ShoreAudio/libv4a_fx_kk_NEON.so:system/lib/soundfx/libv4a_fx_kk_NEON.so
+    vendor/cm/config/ShoreAudio/libv4a_fx_kk_NEON.so:system/lib/soundfx/libv4a_fx_kk_NEON.so \
+    vendor/cm/config/ShoreAudio/audio_effects.conf:system/etc/audio_effects.conf
 
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
@@ -163,7 +164,6 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     DSPManager \
     libcyanogen-dsp \
-    audio_effects.conf \
     Music
 
 # CM Hardware Abstraction Framework
@@ -252,7 +252,7 @@ endif
 
 # Filter out random types, so it'll reset to UNOFFICIAL
 ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(CM_BUILDTYPE)),)
-    CM_BUILDTYPE := NIGHTLY
+    CM_BUILDTYPE := RC1
 endif
 
 ifdef CM_BUILDTYPE
