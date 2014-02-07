@@ -4,6 +4,15 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
+### 11-20140207-ShoreDroid-RC1
+* Started merging in stable code for Release Candidate
+* Updated multiple trees to remove more CM stuff
+* Evita code rework to fix wifi
+* repo sync'd to latest sources
+* Preparing to close source on further releases
+* Lots of final code cleanup
+* Preparing for bug squash builds prior to release
+
 ### 11-20140206-ShoreDroid-common
 * Update webkit to chromium
 * Add custom audio_effects.conf into common build
