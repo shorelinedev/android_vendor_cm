@@ -121,7 +121,7 @@ PRODUCT_COPY_FILES += \
     
 # ViPER Audio
 PRODUCT_COPY_FILES += \
-    vendor/cm/config/ShoreAudio/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2315.apk \
+    vendor/cm/config/ShoreAudio/ViPER4Android_4.x_2322.apk:system/app/ViPER4Android_4.x_2322.apk \
     vendor/cm/config/ShoreAudio/libv4a_fx_kk_NEON.so:system/lib/soundfx/libv4a_fx_kk_NEON.so \
     vendor/cm/config/ShoreAudio/audio_effects.conf:system/etc/audio_effects.conf
 
