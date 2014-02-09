@@ -4,6 +4,10 @@ ShoreDroid
 CHANGELOG (notable new features)
 ---------
 
+### 11-20140209-ShoreDroid-RC2
+*Fixed evita wifi
+*New kernel build for all devices
+
 ### 11-20140207-ShoreDroid-RC1
 * Started merging in stable code for Release Candidate
 * Updated multiple trees to remove more CM stuff
