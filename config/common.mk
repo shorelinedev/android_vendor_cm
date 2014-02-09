@@ -222,7 +222,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = KitKat
 PRODUCT_VERSION_MINOR = 0
-PRODUCT_VERSION_MAINTENANCE = 0-RC1
+PRODUCT_VERSION_MAINTENANCE = 0-RC2
 
 # Set CM_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
 
@@ -236,7 +236,7 @@ endif
 
 # Filter out random types, so it'll reset to UNOFFICIAL
 ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(CM_BUILDTYPE)),)
-    CM_BUILDTYPE := RC1
+    CM_BUILDTYPE := RC2
 endif
 
 ifdef CM_BUILDTYPE
