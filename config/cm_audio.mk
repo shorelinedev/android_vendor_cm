@@ -34,5 +34,5 @@ PRODUCT_COPY_FILES += \
 	
 # ViPER
 PRODUCT_COPY_FILES += \
-        $(ViPER_PATH)/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2315.apk \
+        $(ViPER_PATH)/ViPER4Android_4.x_2315.apk:system/app/ViPER4Android_4.x_2322.apk \
         $(ViPER_PATH)/libv4a_fx_kk_NEON.so:system/lib/soundfx/libv4a_fx_kk_NEON.so
